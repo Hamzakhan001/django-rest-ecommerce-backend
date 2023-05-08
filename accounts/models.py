@@ -4,6 +4,7 @@ from base.models import BaseModel
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 import uuid
+from base.emails import send_account_activation_email
 
 # Create your models here.
 
